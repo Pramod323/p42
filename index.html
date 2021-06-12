@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en">
+
+  <head>
+    <title>Project 42</title>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/matter.js"></script>
+    <script src="libraries/p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+
+    <script>
+      // My web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyC27s3wHfZlChe8rwqIOy8uPcx172FfBKc",
+        authDomain: "fruit-catcher-18b0e.firebaseapp.com",
+        databaseURL: "https://fruit-catcher-18b0e-default-rtdb.firebaseio.com",
+        projectId: "fruit-catcher-18b0e",
+        storageBucket: "fruit-catcher-18b0e.appspot.com",
+        messagingSenderId: "880173692981",
+        appId: "1:880173692981:web:b30217fb1e0c1cf9bd597c"
+      };
+      // Initializing Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+
+</html>
